@@ -21,16 +21,16 @@ class Shoe:
         print("Your shoe is as good as new!")
         self.condition = "New"
 
-# Create an instance of the Shoe class
-stan_smith= Shoe("Adidas", 9)
 
-# Access and print the attributes and methods
+stan_smith= Shoe("Adidas stan-smith", 9)
+
+
 print(f"Brand: {stan_smith.brand}")
 print(f"Size: {stan_smith.size}")
 print(f"Condition: {stan_smith.condition}")
 
-# Call the cobble method
+
 stan_smith.cobble()
 
-# Print the updated condition
+
 print(f"Condition after repair: {stan_smith.condition}")
